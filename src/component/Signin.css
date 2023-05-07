@@ -1,0 +1,116 @@
+.Signin {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url('https://1.bp.blogspot.com/-wOaXKyo2RQ8/XyFmBPvtwTI/AAAAAAAAblU/OdI9gW_aIn8WnlQHabRiR_VvCOfzaBwlgCPcBGAYYCw/w1200-h630-p-k-no-nu/home-background-source-clean.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.mains {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 50vw;
+   height: 49vh;
+   background-image: url('https://th.bing.com/th/id/OIP.oAglCueG0hD4EcfzBpYtfgHaE8?pid=ImgDet&w=1200&h=800&rs=1');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   box-shadow: -2px -2px 23px 10px rgba(255, 243, 243, 1);
+}
+
+.forms {
+   display: flex;
+   width: 100%;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.Login {
+   width: 25vw;
+   height: 5vh;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   color: white;
+}
+
+.passh {
+   width: 25vw;
+   height: 5vh;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   color: aliceblue;
+}
+
+.emails{
+   width: 25vw;
+   height: 5vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 25px;
+   border: none;
+   outline: none;
+   font-size: 25px;
+   background-color: rgba(140, 166, 187, 0.5);
+   transition: .2s all;
+}
+
+.emails:hover{
+   background-color: #616161;
+   opacity: 1;
+   box-shadow: -2px -2px 23px 10px rgba(255, 243, 243, 0.48);
+   color: #e6e6e6;
+}
+
+.passs{
+   width: 25vw;
+   height: 5vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 25px;
+   border: none;
+   outline: none;
+   font-size: 25px;
+   background-color: rgba(140, 166, 187, 0.5);
+   transition: .2s all;
+   
+}
+
+.passs:hover{
+   background-color: #616161;
+   opacity: 1;
+   box-shadow: -2px -2px 23px 10px rgba(255, 243, 243, 0.48);
+   color: #e6e6e6;
+}
+
+
+.btn2 {
+   margin-top: 30px;
+   width: 15vw;
+   height: 6vh;
+   border: none;
+   background: none;
+   background-color: #e6e6e6;
+   opacity: 0.8;
+   border-radius: 27px;
+   transition: .2s all;
+
+}
+
+.btn2:hover {
+   color: white;
+   box-shadow: -2px -2px 23px 10px rgba(255, 255, 255, 0.7);
+   background-color: #858585;
+   opacity: 1;
+}

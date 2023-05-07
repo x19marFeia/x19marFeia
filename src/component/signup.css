@@ -1,0 +1,99 @@
+.Signup {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #ffffff;
+   background-image: url("https://www.desktopbackground.org/download/800x600/2015/03/24/922393_dell-wallpapers-davidn-windows-pictures-blue-walldevil-best_1920x1200_h.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.main{
+   width: 40vw;
+   height: 80vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url('https://scottwelle.com/wp-content/uploads/2016/11/app-background-2.jpg');
+   box-shadow: -2px -2px 23px 10px rgba(207, 206, 206, 0.60);
+}
+
+.form {
+  
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-direction: column;
+   gap: 40px;
+
+}
+.email{ 
+   width: 25vw;
+   height: 5vh;
+   border-radius: 25px;
+   font-size: 20px;
+   border: none;
+   outline: none;
+   background-color: #fff;
+   transition: .1s all;
+
+}
+
+.password {
+   width: 25vw;
+   height: 5vh;
+   border-radius: 25px;
+   font-size: 20px;
+   border: none;
+   outline: none;
+   background-color: #fff;
+   transition: .1s all;
+}
+
+.emailh {
+   width: 25vw;
+   margin-top: 140px;
+   display: flex;
+   justify-content: flex-start;
+   transition: .1s ease-in-out;
+}
+
+.email:hover{
+   box-shadow: -2px -2px 23px 10px rgba(49, 49, 49, 0.48);
+}
+
+
+
+.pass{
+   width: 25vw;
+   margin-top: 20px;
+   display: flex;
+   justify-content: flex-start;
+}
+
+.password:hover {
+   box-shadow: -2px -2px 23px 10px rgba(49, 49, 49, 0.48);
+}
+
+
+.btn {
+   width: 15vw;
+   height: 5vh;
+   border: none;
+   outline: none;
+   color: #3f3f3f;
+   border-radius: 20px;
+   transition: .1s all;
+}
+
+
+.btn:hover{
+   background-color: #525252;
+   color: white;
+
+}
